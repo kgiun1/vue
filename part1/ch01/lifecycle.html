@@ -18,16 +18,17 @@
                 message: 'Hello kgiun1'
             },
             beforeCreate: function() {
-                console.log('beforeCreate')
+                console.log('beforeCreate');
             },
             created: function() {
-                console.log('create')
+                console.log('create');
             },
             mounted: function() {
-                console.log('mounted')
+                console.log('mounted');
+                this.message = 'Hello Vue!';
             },
             updated: function() {
-                console.log('updated')
+                console.log('updated');
             },
         });
     </script>
