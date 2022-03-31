@@ -5,8 +5,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <img alt="logo" src="./assets/logo.png" />
+  <HelloWorld msg="Welcome KT ds" />
 </template>
 
 <style>
@@ -17,5 +17,10 @@ import HelloWorld from './components/HelloWorld.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  height: 150px;
+  width: 200px;
 }
 </style>
