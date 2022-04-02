@@ -7,6 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <img alt="logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome KT ds" />
+  <div><a href="http://naver.com">naver</a></div>
 </template>
 
 <style>
